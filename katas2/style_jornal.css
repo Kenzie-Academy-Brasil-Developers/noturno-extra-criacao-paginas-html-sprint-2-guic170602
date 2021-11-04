@@ -1,1 +1,65 @@
-/* FOLHA DE ESTILO DA PAGINA DE JORNAL */
+html, header, body, img, h1, ul, select, li{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(216, 216, 216);
+    border: orangered 1px solid;
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+header img{
+    height: 7em;
+    display: inline-block;
+}
+
+header h1{
+    display: inline-block;
+}
+
+header span{
+    color: red;
+}
+
+nav{
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header ul{
+    list-style: none;
+    display: inline-block;
+}
+
+header li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+header #filtro{
+    display: inline-block;
+    float: right;
+}
+
+main{
+    margin: 0 auto;
+    width: 85vw;
+    background-color: rgb(216, 216, 216);
+    border: orangered 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
