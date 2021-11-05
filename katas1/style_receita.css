@@ -1,14 +1,26 @@
+p, h2{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background:url(fundo.png) no-repeat fixed;
 	background-size:cover;
 	text-align:center;
 }
 
-main{
-    background: #cba06b;
+/*Navegação/Logo*/
+
+header{
+    background: #9e7e56d5;
     width: 75rem;
-    align-items:center;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
+    border-bottom:1px solid #584630;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+header h1 span{
+    color: #ebb97b;
 }
 
 ul{
@@ -18,15 +30,63 @@ ul{
 }
 
 li{
+    display: inline;
+}
+
+header a{
     display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header a:visited, a:link{
+    color: #000;
+}
+
+header a:hover, #atual{
+    color: #ebb97b;
+    background-color: rgba(88, 70, 48, 0.089);
+}
+
+/*Conteudos/Receitas*/
+
+main{
+    background: #cba06bd5;
+    width: 75rem;
+    align-items:center;
+    margin: 0 auto 20px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .receita{
     display: inline-block;
+    padding: 0
 }
 
-figcaption{
-    font-weight: bold;
+main img{
+    box-shadow: 9px 7px 7px #584630;
+    width: 300px;
+    height: 225px;
+    border-radius: 20px;
 }
 
+main a{
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 10px 5px;
+    margin-top: 7px;
+}
 
+main a:link, a:visited{
+    color: black;
+}
+
+article h2{
+    width: 300px;
+}
+
+main article a:hover{
+    color: #584630;
+    background: #9e7e5635;
+}
