@@ -1,12 +1,18 @@
-html, header, body, img, h1, ul, select, li{
+html, header, body, img, h1, h2, ul, select, li, article, p{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background: rgb(82, 82, 82);
+}
+
+/*Logo/Navegacao*/
+
 header{
-    background-color: rgb(216, 216, 216);
-    border: orangered 1px solid;
-    /* text-align: center; */
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    border-bottom: 1px solid rgb(24, 24, 24) ;
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
 }
@@ -16,50 +22,98 @@ header img{
     display: inline-block;
 }
 
+.logo{
+    width:max-content;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
 header h1{
-    display: inline-block;
+    margin-top: 12.5%;
+    float:right;
 }
 
 header span{
-    color: red;
+    color: #e31e24;
 }
 
 nav{
-    display: inline;
-    margin: 0 auto;
+    display: block;
     text-align: center;
 }
 
 header ul{
     list-style: none;
-    display: inline-block;
+    margin-bottom: 10px;
 }
 
 header li{
     display: inline-block;
 }
 
-a{
+header a{
     text-decoration: none;
+    font-size: 1.2em;
+    padding: 7px 2px;
 }
 
-a:visited, a:link{
-    color: black;
+header a:visited, a:link{
+    color: white;
 }
 
-a:hover{
-    color: red;
+header a:hover, #atual{
+    color:  #e14247;
+    background: #8b8b8b1c;
 }
 
 header #filtro{
+    margin-top: -30px;
     display: inline-block;
     float: right;
 }
 
+/*Conteudo*/
+
 main{
-    margin: 0 auto;
-    width: 85vw;
+    margin: 10px auto;
+    width: max-content;
     background-color: rgb(216, 216, 216);
-    border: orangered 1px solid;
+    border: rgba(255, 68, 0, 0.248) 1px solid;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.noticia{
+    width: 550px;
+    margin: 10px 20px;
+    float: left;
+}
+
+.noticia img{
+    width: 549px;
+    box-shadow: 9px 7px 7px gray;
+    border-radius: 40px;
+}
+
+.descricao{
+    text-align:justify;
+}
+
+main p{
+    margin-top: 5px;
+}
+
+#link, a{
+    font-size: 1.1em;
+    padding: 5px 2px;
+    text-align: left;
+}
+
+main a:link, a:visited{
+    color: black;
+}
+
+main a:hover{
+    color: rgba(255, 68, 0);
 }
