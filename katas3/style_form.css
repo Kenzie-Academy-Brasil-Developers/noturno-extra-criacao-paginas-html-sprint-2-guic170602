@@ -1,1 +1,76 @@
-/* FOLHA DE ESTILO DA PAGINA DE FORMULÁRIO */
+body{
+    background: gray;
+    font-family:'Arial Narrow Bold', sans-serif
+}
+
+header{
+    text-align: center;
+    width: 75vw;
+    height: 15vh;
+    background: rgb(49, 49, 49);
+    color:azure;
+    margin:0 auto;
+}
+
+header h1{
+    padding-top: 20px;
+    font-size: 2.2rem;
+}
+
+main{
+    background: white;
+    width: 30vw;
+    margin: -30px auto 10px auto;
+    padding: 5px 10px;
+    box-shadow: 7px 5px 10px black;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+input, select, fieldset{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+main h1{
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+fieldset{
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+fieldset label{
+    font-size:1.1rem;
+}
+
+input[type="radio"]{
+    margin-bottom: 5px;
+}
+
+button{
+    font-size: 1.1rem;
+    background: rgb(213, 213, 213);
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    background: rgb(213, 213, 213);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+ul{
+    margin-bottom: 10px;
+}
+
+li{
+    margin-bottom: 5px;
+}
