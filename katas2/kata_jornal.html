@@ -1,38 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornal Pop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style_jornal.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="img/Jornal Pop.png" alt="Logo da pagina">
             <h1>Jornal <span>Pop</span></h1>
         </div>
-        <nav>
-             <ul>
-                 <li><a id="atual">Home - Noticias</a></li>
-                 <li><a href="#">Quem Somos</a></li>
-                 <li><a href="#">Contato</a></li>
-             </ul>
-        </nav>
-        <div id="filtro">
-            <label for="filtro">Filtro</label>
-            <select name="filtro">
-                <option value="recentes">Mais recentes</option>
-                <option value="vizualido">Mais vizualidos</option>
-            </select>
-            <label for="data">Data</label>
-            <select name="data">
-                <option value="none">Sem filtro</option>
-                <option value="semana">Ultima semana</option>
-                <option value="mes">Ultimo mes</option>
-                <option value="ano">Ultimo ano</option>
-            </select>
+        <div id="navEfiltro">
+            <nav>
+                <ul>
+                    <a id="atual">
+                        <li>Principais Noticias</li>
+                    </a>
+                    <a href="#">
+                        <li>Esportes</li>
+                    </a>
+                    <a href="#">
+                        <li>Politica</li>
+                    </a>
+                    <a href="#">
+                        <li>Educação</li>
+                    </a>
+                    <a href="#">
+                        <li>Mundo da musica</li>
+                    </a>
+                    <a href="#">
+                        <li>Quem Somos</li>
+                    </a>
+                    <a href="#">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="filtro">
+                <label for="filtro">Filtro</label>
+                <select name="filtro">
+                    <option value="recentes">Mais recentes</option>
+                    <option value="vizualido">Mais vizualidos</option>
+                </select>
+                <label for="data">Data</label>
+                <select name="data">
+                    <option value="none">Sem filtro</option>
+                    <option value="semana">Ultima semana</option>
+                    <option value="mes">Ultimo mes</option>
+                    <option value="ano">Ultimo ano</option>
+                </select>
+            </div>
         </div>
     </header>
     <main>
@@ -42,7 +66,11 @@
                 <img src="img/trem.png" alt="Noticia">
                 <p>Data: 01/01/2021</p>
                 <p>Autor: Lorem Ipsum</p>
-                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a. Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
+                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus
+                    tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris
+                    odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a.
+                    Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis
+                    ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
                 <p id="link"><a href="">Leia mais</a></p>
             </article>
             <article class="noticia">
@@ -50,7 +78,11 @@
                 <img src="img/aviao.png" alt="Noticia">
                 <p>Data: 01/01/2021</p>
                 <p>Autor: Lorem Ipsum</p>
-                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a. Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
+                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus
+                    tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris
+                    odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a.
+                    Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis
+                    ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
                 <p id="link"><a href="">Leia mais</a></p>
             </article>
         </div>
@@ -60,7 +92,11 @@
                 <img src="img/trem.png" alt="Noticia">
                 <p>Data: 01/01/2021</p>
                 <p>Autor: Lorem Ipsum</p>
-                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a. Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
+                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus
+                    tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris
+                    odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a.
+                    Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis
+                    ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
                 <p id="link"><a href="">Leia mais</a></p>
             </article>
             <article class="noticia">
@@ -68,10 +104,35 @@
                 <img src="img/aviao.png" alt="Noticia">
                 <p>Data: 01/01/2021</p>
                 <p>Autor: Lorem Ipsum</p>
-                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a. Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
+                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius dapibus
+                    tellus, sed mattis dui dignissim vel. Nullam consectetur consequat molestie. Sed eleifend mauris
+                    odio, nec sodales nunc lacinia et. Nunc pulvinar pretium odio, eget facilisis urna scelerisque a.
+                    Pellentesque tincidunt pellentesque dolor nec rutrum. Praesent euismod consectetur massa quis
+                    ultricies. Etiam tempor justo eget libero auctor, in vestibulum lacus pharetra.</p>
                 <p id="link"><a href="">Leia mais</a></p>
             </article>
         </div>
     </main>
+    <footer>
+        <div id="footerNoticia">
+            <div class="logo">
+                <img src="img/Jornal Pop.png" alt="Logo da pagina">
+                <h1>Jornal <span>Pop</span></h1>
+            </div>
+            <p><a href="#">Ultimas Noticias</a></p>
+        </div>
+        <div id="copyLinks">
+            <p>© 2021 Copyright: Guilherme Colhado de Souza</p>
+            <nav>
+                <ul>
+                    <a href="#"><li>princípios editoriais</li></a>
+                    <a href="#"><li>política de privacidade</li></a>
+                    <a href="#"><li>minha conta</li></a>
+                    <a href="#"><li>anuncie conosco</li></a>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
+
 </html>
