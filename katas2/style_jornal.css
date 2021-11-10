@@ -103,12 +103,13 @@ main{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     overflow: hidden;
+    display: flex;
+    
 }
 
 .noticia{
     width: max-content;
     margin: 10px 20px;
-    float: left;
     background-color: rgba(82, 82, 82, 0.083);
 }
 
@@ -124,7 +125,7 @@ main{
 
 .descricao{
     margin: 0 20px;
-    display: inline-block;
+    display: block;
     width: 550px;
     text-align:justify;
 }
@@ -153,9 +154,14 @@ main a:hover{
     color: rgba(255, 68, 0);
 }
 
+main footer{
+    width: max-content;
+    margin: 0 auto;
+}
+
 /*Footer*/
 
-footer{
+.rodape{
     width: 1275px;
     background-color: #8b8b8b;
     margin: 0 auto;
@@ -202,4 +208,8 @@ footer .logo{
 #copyLinks a:not(:first-of-type) {
     border-left: 0.5px solid rgba(255, 0, 0, 0.26);   
     padding-left: 5px; 
+}
+
+footer ul{
+    list-style: none;
 }
